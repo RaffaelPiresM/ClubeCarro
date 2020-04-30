@@ -1,0 +1,56 @@
+
+body{ /*imagem de fundo*/
+	background:url(../img/imgfundo.jpg) 100% 100% ;
+}
+#conteudo { /*corpo da pagina*/
+
+	width:950px;
+	height::1130px;
+	margin:auto;
+	margin-top:auto;
+	}
+
+#topo {  /*lugar do banner*/
+	border: 1px #000000 solid;
+	margin-top:10px;
+	width:950px;
+	height:250px;
+	background:url(../img/logo.png) no-repeat center;
+	position:relative;
+	
+	}
+
+	
+#areacadastro{ /*primeiro caixa de conteudo*/
+	width:730px;
+	height:388px;
+	background:#666;
+	float:left;
+	margin-top:20px;
+	margin-left:100px;
+	}
+	
+	#mapa{
+		background:#FFF;
+		width:410px;
+		height:340px;
+		margin-left:230px;
+		}
+	
+	
+#rodape{ /*rodapé da pagina*/
+margin-top:50px;
+width:100%;
+
+	width:100%;
+	height:30px;
+	text-align:center;
+	background:#333;
+	margin-top:450px;
+	
+	
+	color:#FFF;
+}
+
+
+

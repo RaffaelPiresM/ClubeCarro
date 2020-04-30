@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>pagina 1 título</title>
+<link rel="stylesheet" href="css/stylefale.css" />
+<style type="text/css">
+
+
+</style>
+
+<script language="JavaScript">
+				function janela()
+				{
+				alert('olá seja bem vindo.');
+				}
+
+				function quadro(txtnome)
+				{ 
+				alert( txtnome+ ' cadastrado com sucesso')
+				}
+				function porta()
+				{
+					
+					
+					
+					}
+
+
+			</script>
+</head>
+
+
+
+
+<body onload="janela()">
+
+
+
+  
+<div id="conteudo">
+
+	<div id="topo">
+        
+	</div>
+  
+	<div id="areacadastro">
+   
+    
+    
+		<form>
+       
+<fieldset>
+ <legend><b> Dados Pessoais </b> </legend>
+  <div id="foto">
+   			<img src="img/fotocadastro.png"  width="80" height="80"/>
+    </div>
+ <table cellspacing="10">
+<tr>
+   <td>
+    <label for="nome"> <b> Nome:*</b> </label>
+   </td>
+   <td align="left">
+    <input type="text" name="txtnome" >
+   </td>
+   <td>
+    <label for="sobrenome"> <b>Sobrenome:*</b> </label>
+   </td>
+   <td align="left">
+    <input type="text" name="sobrenome">
+   </td>
+</tr>
+<tr>
+<td>
+<input type="radio"  name="sexo"  value="masculino"><b>   masculino</b> <br>
+
+<input type="radio"  name="sexo" value="feminino"> <b>feminino </b><br>
+</td> 
+</tr>
+
+
+
+<tr>
+   <td>
+    <label> <b>Nascimento:*</b> </label>
+   </td>
+   <td align="left">
+   <input type="date" name="Ano" size="2" maxlength="22"> 
+   </td>
+</tr>
+
+<tr>
+   <td>  <label for="rg"><b>RG:*</b> </label>  </td>
+
+   <td align="left">
+    <input type="text" name="rg" size="13" maxlength="13"> 
+   </td>
+</tr>
+
+<tr>
+   <td>
+    <label><b>CPF:*</b></label>
+   </td>
+   <td align="left">
+    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+   </td>
+</tr>
+
+<tr>
+   <td>
+    <label for="nome"> <b> Nacionalidade:*</b> </label>
+   </td>
+   <td>
+    <select>
+<option value="1"><b> Brasileiro(a)</b> </option>
+<option value="2"> <b> Estrangeiro(a)</b></option>
+</select>
+   </td>
+   <td>
+    <label for="sobrenome"> <b> Estado Civil:*</b> </label>
+   </td>
+
+ <td align="left">
+ <select>
+<option value="1"><b> solteiro</b> </option>
+<option value="2"> <b>casado </b></option>
+<option value="3"> <b> divorciado</b> </option>
+<option value="4"> <b>viuvo </b></option>
+</select>
+   </td>
+</tr>
+
+ </table>
+</fieldset>
+<br>
+
+<!----fim 1 ----->
+
+<fieldset>
+ <legend ><b> Dados de Endereço</b> </legend>
+ <table cellspacing="10">
+  
+  
+  </tr>
+  <tr>
+   <td>
+    <label><b>Endereço:*</b> </label>
+   </td>
+   <td align="left">
+   <input type="text"  size="15" maxlength="15"> 
+   </td>
+<td>
+<label><b> Nº</b> </label>
+</td>
+<td>
+ <input type="text" size="6" maxlength="6">
+</td>
+</tr>
+<tr>
+   <td>  <label for="bairro"><b> Bairro:*</b> </label>  </td>
+   <td align="left">
+    <input type="text" name="rg" size="13" maxlength="13"> 
+   </td>
+</tr>
+
+<tr>
+   <td>  <label for="bairro"><b> Estado:*</b> </label>  </td>
+   <td align="left">
+    <input type="text" name="rg" size="13" maxlength="13"> 
+   </td>
+</tr>
+
+  <tr>
+   <td>
+    <label><b>CEP:*</b></label>
+   </td>
+   <td align="left">
+    <input type="text" name="cpf" size="5" maxlength="5"> - <input type="text" name="cpf2" size="3" maxlength="3">
+	
+   </td>
+  </tr>
+ </table>
+</fieldset>
+<br> 
+
+<!-------testando 2------>
+
+
+<fieldset>
+ 	<legend> <b>Dados de Login </b></legend>
+ 	<table cellspacing="10">
+<tr>
+   <td>
+    <label for="nome"><b>E-mail:*</b> </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome" >
+   </td>
+</tr>
+<tr>
+   <td>
+    <label><b> Login Usuário</b> </label>
+   </td>
+   <td> <input type="email"> 
+   </td>
+</tr>
+<tr>
+   <td>
+    <label><b> Senha</b> </label>
+   </td>
+   <td> <input type="password"> 
+   </td>
+</tr>
+<tr>
+   <td>
+    <label><b> Confirme Senha</b> </label>
+   </td>
+   <td> <input type="text"> 
+<a href="pagina1.html"><input type="button"  value="Cadastrar"    onclick="quadro (txtnome.value)"  > </a>
+<input type="reset" value="limpar campos">
+   </td>
+</tr>
+
+</table>
+</fieldset>
+	</form>
+    
+    
+	</div>
+</div>
+
+<div id="rodape">
+		Todos os Direitos e privacidade Reservados
+	</div>
+
+
+</body>
+</html>

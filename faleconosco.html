@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>pagina 1 título</title>
+<link rel="stylesheet" href="css/stylecadastro.css"/>
+<style type="text/css">
+
+
+</style>
+
+<script language="JavaScript">
+				function janela()
+				{
+				alert('olá seja bem vindo.');
+				}
+
+				function quadro(txtnome)
+				{ 
+				alert( txtnome+ ' cadastrado com sucesso')
+				}
+
+
+			</script>
+</head>
+
+
+
+
+<body onload="janela()">
+
+
+
+  
+<div id="conteudo">
+
+	<div id="topo">
+        
+	</div>
+   
+   <div id="areacadastro2">
+	 <div id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.983112768323!2d-46.64873618502191!3d-23.569049984679097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59be7c3ab6b7%3A0xc5ca52458ffb480c!2sAv.+Paulista%2C+300+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP%2C+01310-000!5e0!3m2!1spt-BR!2sbr!4v1528688294819" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <p align="center">Endereço da Empresa	 </p>
+	 </div>
+    </div>
+    
+	<div id="areacadastro">
+   
+    		<form>
+       
+<fieldset>
+ <legend><b> Dados Pessoais </b> </legend>
+
+ <table cellspacing="10">
+<tr>
+   <td width="173">
+    <label for="nome"> <b> Nome:*</b> </label>
+   </td>
+   <td width="516" align="left">
+    <input type="text" name="txtnome" maxlength="18" size="18" placeholder="Digite o Nome" >
+   </td>
+</tr>
+
+<tr>
+   <td>
+    <label for="nome"><b>E-mail:*</b> </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome"placeholder="example@gmail.com" >
+   </td>
+</tr>
+<tr>
+   <td>
+    <label for="nome"><b>Telefone*</b> </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome"placeholder="(11)00000-0000" >
+   </td>
+</tr>
+
+<tr>
+<td>
+<input type="radio"  name="sexo"  value="masculino"  ><b>   masculino</b> <br>
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio"  name="sexo" value="feminino"> <b>feminino </b><br>
+</td> 
+</tr>
+
+
+
+<tr>
+   <td>
+    <label> <b>Digite Sua Mensagem:</b> </label>
+   </td>
+   <td>
+   <textarea cols="45" rows="10" placeholder="Conte-nos sobre sua Experiência no site ..." > </textarea>
+  
+   
+   
+<a href="pagina1.html"> <input type="button"  value="Enviar" onclick="quadro (txtnome.value)"> </a>
+<input type="reset" value="Limpar">
+   </td>
+</tr>
+
+ </table>
+</fieldset>
+</form>
+</div>
+
+<div id="rodape">
+©2018,Todos os direitos Reservados
+</div>
+
+</body>
+
+</html>
